@@ -147,7 +147,7 @@ public class Basics {
 
         // Fill in the rest of the body here
         for(int i = 0; i < 7; i++){
-            ret.append(strings[i]);
+            ret.append(strings[i].charAt(0));
         }
 
         return ret.toString();
@@ -179,7 +179,7 @@ public class Basics {
         if ((arr.length == 0) || (arr.length == 1)){
             return 0;
         }
-        for(int i = 1; i < arr.length; i++){
+        for(int i = 1; i < arr.length; i += 2){
             current_sum += arr[i];
         }
         return current_sum;
