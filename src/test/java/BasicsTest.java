@@ -82,12 +82,5 @@ public class BasicsTest {
         int[] arr4 = {17, 2};
         assertEquals(Basics.oddSum(arr4), 2);
     }
-
-    public void main(String[] args) {
-        this.testTask1();
-        this.testTask2();
-        this.testTask3();
-        this.testTask4();
-        this.testTask5();
-    }
+    
 }

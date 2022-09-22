@@ -143,11 +143,11 @@ public class Basics {
          *                you may use them if you wish.
          */
         StringBuilder ret = new StringBuilder();
-        String[] strs = to_split.split(" ");
+        String[] strings = to_split.split(" ");
 
         // Fill in the rest of the body here
         for(int i = 0; i < 7; i++){
-            ret.append(strs[i]);
+            ret.append(strings[i]);
         }
 
         return ret.toString();
